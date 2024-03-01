@@ -1,0 +1,23 @@
+#nav{display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 8vh;
+    padding: 0;
+    /* background-color:black; */
+}
+#nav>ul{
+    padding: 0;
+}
+#nav>ul li{
+    display: inline-block;
+    padding: 10px;
+    /* display: flex; */
+    background-color: black;
+    /* justify-content: space-around; */
+list-style: none;}
+
+
+.nav-link{
+    font-weight: 600;
+    text-decoration: none;
+}

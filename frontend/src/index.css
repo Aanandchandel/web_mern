@@ -1,0 +1,9 @@
+*{padding: 0;
+margin: 0;}
+body{
+    background-image: url("../public/halloween-2837936_1920.png");
+    background-size: cover;
+}
+*::-webkit-scrollbar{
+overflow: hidden;
+}
