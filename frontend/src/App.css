@@ -3,3 +3,6 @@ color: white;
 min-height: 100vh;
     background: rgba(0, 0, 0, 0.7);
 }
+.hide{
+    display: none;
+}

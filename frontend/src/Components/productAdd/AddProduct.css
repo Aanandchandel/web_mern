@@ -1,0 +1,43 @@
+.addproduct{min-height: 80vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addproduct>h1{
+    color: chocolate;
+}
+.addproduct>div{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid chocolate;
+    margin-top: 2rem;
+    
+        display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: start;
+    flex-direction: column;
+
+}
+.addproduct>div>input{
+    border-radius: 0.5rem;
+    border: 2px solid rgba(210, 105, 30,0.5);
+font-size: 1rem;
+background-color: rgba(99, 90, 90, 0.5);
+padding: 0rem 1rem 0rem 1rem;
+height: 2rem;
+    width: 25vw;
+}
+.addbtn{
+    background-color: rgb(155, 142, 142);
+    border-radius: 0.5rem;
+    background-color: rgba(99, 90, 90, 0.5);
+    border: 2px solid rgba(210, 105, 30,0.5);
+    color: chocolate;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 10vw;
+    border-radius: 0.5rem;
+}
+

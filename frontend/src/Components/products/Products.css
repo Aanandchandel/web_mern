@@ -1,0 +1,41 @@
+#products{
+    margin: 2px;
+    padding: 10px;
+     display: inline-block;
+     /* flex-direction: column; */
+     height: 30vh;
+     width: 20vw;
+     flex-wrap: wrap;
+     border-radius: 1rem;
+     border: 2px solid rgba(161, 110, 110, 0.425);
+}
+#products>div{
+    margin-top: 1rem;
+}
+#products>div>h1{
+    font-size: 1rem;
+text-align: right;
+}
+#products>div>h1>span{
+    font-size: 0.5rem;
+    color: dimgray;
+}
+
+#products>div>h3{
+    text-align: right;
+}
+.buy{
+    background-color: chocolate;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(161, 110, 110, 0.425);
+    /* text-align: center;
+     */
+     padding: 0px 40% 0px 40%;
+    color: white;
+    font-weight: 400;
+}
+#products>img{
+    border-radius: 0.5rem;
+    width: 99%;
+    height: 99%;
+}
